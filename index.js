@@ -30,3 +30,4 @@ function xxx () {
 }
 
 console.log('requerimiento terminado')
+console.log('otra vaina')
