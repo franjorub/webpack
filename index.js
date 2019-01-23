@@ -28,3 +28,5 @@ function xxx () {
 function xxx () {
     return 'return '
 }
+
+console.log('requerimiento terminado')
