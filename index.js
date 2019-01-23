@@ -11,7 +11,7 @@ async function test1() {
     console.log('asdasdasd')
     console.log('last')
     
-    /////////////////////
+//////////////////////////
     console.log('100')
     console.log('100')
 }
