@@ -29,9 +29,5 @@ function xxx () {
     return 'return '
 }
 
-console.log('requerimiento terminado')
-<<<<<<< HEAD
-console.log('requerimiento terminado 2')
-=======
-console.log('otra vaina')
->>>>>>> dev
+console.log('requerimiento terminado3')
+console.log('requerimiento terminado 23')
