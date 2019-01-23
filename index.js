@@ -19,3 +19,12 @@ async function test1() {
 function xxx () {
     return 'return '
 }
+function xxx () {
+    return 'return '
+}
+function xxx () {
+    return 'return '
+}
+function xxx () {
+    return 'return '
+}
