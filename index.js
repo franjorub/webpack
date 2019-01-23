@@ -1,12 +1,12 @@
 
 async function test1() {
     await console.log('test1')
-    console.log('100')
-    console.log('100')
-    console.log('100')
-    console.log('100')
-    console.log('100')
-    console.log('100')
+    console.log('modify')
+    console.log('modify')
+    console.log('modify')
+    console.log('modify')
+    console.log('modify')
+    console.log('modify')
     
     console.log('asdasdasd')
     console.log('last')
@@ -30,3 +30,4 @@ function xxx () {
 }
 
 console.log('requerimiento terminado')
+console.log('requerimiento terminado 2')
