@@ -1,7 +1,7 @@
 const webpack = require('webpack')
 path = require('path')
 endPath = path.resolve(__dirname, 'public');
-
+const HtmlWebpackPlugin = require("html-webpack-plugin")
 module.exports = {
     mode: 'development',
     resolve: {
@@ -25,14 +25,15 @@ module.exports = {
     plugins: [
         // new webpack.HotModuleReplacementPlugin(),
         // new webpack.NamedModulesPlugin()
+        new HtmlWebpackPlugin({
+            template: './src/app/index.html',
+            inject: false,
+        })
     ],
     devtool: 'inline-soruce-map',
-    devServer: {
-        hot: true,
-        contentBase: endPath,
-        inline: true,
+    devServer: {       
+        contentBase: endPath,        
         compress: true,
-        port: 3000,
-        publicPath: '/'
+        port: 3000,        
     },
 };

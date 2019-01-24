@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var pass = "ES7 and ES6";
+var pass = "ES7 and ES";
 
 /***/ })
 

@@ -1,1 +1,2 @@
-let pass = `ES7 and ES6`
+let pass = `ES7 and ES`
+console.log("holaaaaaaaaaaaa")
