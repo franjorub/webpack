@@ -1,0 +1,1 @@
+let pass = `ES7 and ES6`
